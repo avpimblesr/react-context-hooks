@@ -1,9 +1,13 @@
 import React from 'react'
+import BookList from './BookList'
+import Navbar from './Navbar'
+import '../index.css'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className='App'>
+      <Navbar />
+      <BookList />
     </div>
   )
 }
